@@ -1,0 +1,94 @@
+/* Start Star point */
+.detail-vote {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+.cl-gray {
+  color: #888888;
+}
+li {
+  list-style: none;
+}
+.sale-star {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.arrow {
+  flex-direction: row;
+  gap: 15px;
+}
+.sale-star ul {
+  display: flex;
+  margin-top:-0.2em ;
+  
+}
+/* End Star point */
+
+/* DETAIL QUANTITY */
+
+.detail-quantity {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.quantity {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px 42px;
+}
+
+.quantity input {
+  width: 60px;
+  height: 30px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0d0e0f;
+  text-align: center;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.quantity .plus-btn,
+.quantity .minus-btn {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #646464;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding-top: 0.3em;
+}
+
+.quantity .plus-btn:hover,
+.quantity .minus-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.quantity .plus-btn:focus,
+.quantity .minus-btn:focus {
+  outline: none;
+}
+
+.quantity .minus-btn {
+  position: absolute;
+  top: 7px;
+  left: 15px;
+}
+
+.quantity .plus-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}

@@ -1,21 +1,21 @@
 import React, { useState } from "react";
 import "./App.css";
-import Navbar from "./layouts/header_footer/Navbar";
-import HomePage from "./layouts/homepages/Homepage";
+import Navbar from "./layouts/user/header_footer/Navbar";
+import HomePage from "./layouts/user/homepages/Homepage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import FurnitureDetail from "./layouts/detailProduct/FurnitureDetail";
-import Footer from "./layouts/header_footer/Footer";
+import FurnitureDetail from "./layouts/user/detailProduct/FurnitureDetail";
+import Footer from "./layouts/user/header_footer/Footer";
 import product from "./models/Product";
-import AccountOrder from "./layouts/account/AccountOrder";
-import Wishlist from "./layouts/account/WishList";
-import Address from "./layouts/account/Address";
-import NotFoundPage from "./layouts/homepages/NotFoundPage";
-import Shop from "./layouts/shop/List";
-import Cart from "./layouts/Cart/Cart";
-import Checkout from "./layouts/Checkout/Checkout";
-import Login from "./layouts/login/Login";
+import AccountOrder from "./layouts/user/account/AccountOrder";
+import Wishlist from "./layouts/user/account/WishList";
+import Address from "./layouts/user/account/Address";
+import NotFoundPage from "./layouts/user/homepages/NotFoundPage";
+import Shop from "./layouts/user/shop/List";
+import Login from "./layouts/user/login/Login";
 import "react-toastify/dist/ReactToastify.css";
 import { AuthProvider } from "./contexts/AuthContext";
+import Cart from "./layouts/user/cart/Cart";
+import Checkout from "./layouts/user/checkout/Checkout";
 
 function App() {
   const [product, setProduct] = useState<product[]>([]);

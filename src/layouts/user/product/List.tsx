@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import product from "../../models/Product";
 import Furniture from "./component/Furniture";
+import product from "../../../models/Product";
 const products: product[] = [
   new product(
     "1",
